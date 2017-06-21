@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vivinia.imspeech.StreamActivity">
+
+    <Button
+        android:id="@+id/mBtnStreamPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:onClick="btnStreamPlay"
+        android:text="播放"/>
+    <Button
+        android:id="@+id/mBtnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始"
+        android:onClick="streamStart"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/mTvLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="123"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+</LinearLayout>
